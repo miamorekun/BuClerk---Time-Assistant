@@ -1,7 +1,6 @@
 import React from 'react';
 import {BrowserRouter, Navigate, Route, Routes} from "react-router-dom";
 import MyWorkSpace from "./components/routes/MyWorkSpace";
-import MyAllNotes from "./components/routes/MyAllNotes";
 import MyNotesList from "./components/notes/MyNotesList";
 import MyTrash from "./components/routes/MyTrash";
 import MyNotes from "./components/routes/MyNotes";

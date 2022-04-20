@@ -46,5 +46,5 @@ export const NotesList = styled("div")(({theme}: { theme: ThemeOptions }) => ({
 
 export const NoteStyled =  styled("div")(({theme}: { theme: ThemeOptions }) => ({
     flexGrow:1,
-    padding: "24px 36px 24px 12px"
+    padding: "24px 24px 24px 0"
 }))

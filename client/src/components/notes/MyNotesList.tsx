@@ -22,7 +22,7 @@ const MyNotesList: React.FC<Props> = ({url}) => {
             </div>
             <div
                 className="flex-grow-1 overflow-scroll"
-                style={{paddingRight: 24, width: 290}}
+                style={{paddingRight: 24, width: 320}}
             >{
                 !error ? !isLoading ? notes.length !== 0 ? notes.map((note, i) => (
                     <MyNotePreview

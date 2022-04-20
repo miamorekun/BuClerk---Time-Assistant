@@ -1,36 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7953393-bcff-412c-b4b3-b1a39ab1e73f" name="Default Changelist" comment="Modify: &quot;other dependencies&quot;">
-      <change beforePath="$PROJECT_DIR$/client/.gitignore" beforeDir="false" />
+    <list default="true" id="f7953393-bcff-412c-b4b3-b1a39ab1e73f" name="Default Changelist" comment="Add: &quot;Other&quot;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/MyRoutes.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemChecked.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemChecked.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarItemMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/navbar/MyNavbarStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteDatePicker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteDatePicker.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNotePreview.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNotePreview.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStatus.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteStatus.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/button/MyButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/button/MyButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/markdown-editor/MyMarkDownEditor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/markdown-editor/MyMarkDownEditorStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/markdown-editor/MyMarkDownEditorTextArea.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/note-description-editor/MyNoteDescriptionEditor.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/note-description-editor/MyNoteDescriptionModal.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/note-description-editor/MyNoteDescriptionStyles.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNote.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNote.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteStyles.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteStyles.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNoteTags.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNoteTags.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/notes/MyNotesList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/notes/MyNotesList.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/profile/MyProfileBadge.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/profile/MyProfileBadge.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyAllNotes.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/MyAllNotes.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyProjects.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MySortByStatus.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MySortByTags.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/routes/MyTrash.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/routes/MyTrash.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/search/MySearch.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/search/MySearch.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/search/MySearchTextfield.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/search/MySearchTextfield.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/search/mySearchModel.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/types.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss-modules/_main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss-modules/_main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/scss-modules/_navbar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/scss-modules/_navbar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +107,19 @@
       <workItem from="1648498141275" duration="5586000" />
       <workItem from="1648660356442" duration="246000" />
       <workItem from="1648724733202" duration="117000" />
-      <workItem from="1648724921488" duration="504000" />
+      <workItem from="1648724921488" duration="1238000" />
+      <workItem from="1648727795110" duration="166000" />
+      <workItem from="1648731600015" duration="43000" />
+      <workItem from="1648895437682" duration="29000" />
+      <workItem from="1648932848571" duration="116000" />
+      <workItem from="1649517975445" duration="20000" />
+      <workItem from="1649786880482" duration="852000" />
+      <workItem from="1649845009932" duration="169000" />
+      <workItem from="1649849505003" duration="603000" />
+      <workItem from="1649956971294" duration="70000" />
+      <workItem from="1650226938024" duration="751000" />
+      <workItem from="1650364654736" duration="217000" />
+      <workItem from="1650467415674" duration="1805000" />
     </task>
     <task id="LOCAL-00001" summary="Add: &quot;Rubik Font&quot;">
       <created>1646928423286</created>
@@ -242,7 +240,98 @@
       <option name="project" value="LOCAL" />
       <updated>1647629387438</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Update: &quot;Gitignore&quot;">
+      <created>1648725589292</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725589292</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Add: &quot;Use Active Link navbar hook&quot;">
+      <created>1648725614239</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725614239</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Add: &quot;Use Get My Notes allnotes hook&quot;">
+      <created>1648725630620</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725630620</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Add: &quot;Note Select&quot;">
+      <created>1648725715597</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725715597</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Add: &quot;Backend NodeJs API&quot;">
+      <created>1648725749696</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725749696</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Add: &quot;Note API&quot;">
+      <created>1648725765473</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725765473</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Add: &quot;Projects API + Projects Store&quot;">
+      <created>1648725787860</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725787860</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Add: &quot;Note Status&quot;">
+      <created>1648725817672</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725817672</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Add: &quot;Note Projects Select&quot;">
+      <created>1648725829129</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725829129</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Add: &quot;Notes Controller - API&quot;">
+      <created>1648725847070</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725847070</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Add: &quot;My Select&quot;">
+      <created>1648725858746</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725858746</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Add: &quot;My Select Styles&quot;">
+      <created>1648725866417</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1648725866417</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Add: &quot;Other&quot;">
+      <created>1648726017219</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1648726017219</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -262,10 +351,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Add: &quot;Rubik Font&quot;" />
-    <MESSAGE value="Refactor: &quot;Fonts&quot;" />
-    <MESSAGE value="Add: &quot;App Routing&quot;" />
-    <MESSAGE value="Modify: &quot;custom Mui theme&quot;" />
     <MESSAGE value="Modify: &quot;Add Routes Components&quot;" />
     <MESSAGE value="Add: &quot;Custom Tooltip&quot;" />
     <MESSAGE value="Add: &quot;Custom TextField&quot;" />
@@ -278,6 +363,19 @@
     <MESSAGE value="Modify: &quot;package.json dependencies&quot;" />
     <MESSAGE value="Modify: &quot;index file - provide custom theme&quot;" />
     <MESSAGE value="Modify: &quot;other dependencies&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify: &quot;other dependencies&quot;" />
+    <MESSAGE value="Update: &quot;Gitignore&quot;" />
+    <MESSAGE value="Add: &quot;Use Active Link navbar hook&quot;" />
+    <MESSAGE value="Add: &quot;Use Get My Notes allnotes hook&quot;" />
+    <MESSAGE value="Add: &quot;Note Select&quot;" />
+    <MESSAGE value="Add: &quot;Backend NodeJs API&quot;" />
+    <MESSAGE value="Add: &quot;Note API&quot;" />
+    <MESSAGE value="Add: &quot;Projects API + Projects Store&quot;" />
+    <MESSAGE value="Add: &quot;Note Status&quot;" />
+    <MESSAGE value="Add: &quot;Note Projects Select&quot;" />
+    <MESSAGE value="Add: &quot;Notes Controller - API&quot;" />
+    <MESSAGE value="Add: &quot;My Select&quot;" />
+    <MESSAGE value="Add: &quot;My Select Styles&quot;" />
+    <MESSAGE value="Add: &quot;Other&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: &quot;Other&quot;" />
   </component>
 </project>

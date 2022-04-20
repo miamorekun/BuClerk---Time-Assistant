@@ -12,7 +12,7 @@ import MyNoteStatusSelect from "./MyNoteStatusSelect";
 import MyNoteDatePicker from "./MyNoteDatePicker";
 import moment from "moment";
 import {date_time_format} from "../moment-dt-config/my-dt-formats";
-import MyNoteCreateDescriptionButton from "./MyNoteCreateDescriptionButton";
+import BCEditor from "../editor/Index"
 
 interface Props {
     todoId?: string
@@ -29,7 +29,6 @@ const MyNotePattern: React.FC = ({children}) => {
         </div>
     )
 }
-
 const MyNotePlug = () => {
     const theme = useTheme<ThemeOptions>()
 
@@ -47,7 +46,6 @@ const MyNotePlug = () => {
         </MyNotePattern>
     )
 }
-
 const MyNoteLoading = () => {
     return (
         <MyNotePattern>
@@ -57,7 +55,6 @@ const MyNoteLoading = () => {
         </MyNotePattern>
     )
 }
-
 const MyNoteError = () => {
     return (
         <MyNotePattern>
@@ -80,6 +77,7 @@ const MyNote: React.FC<Props> = () => {
                         custom={1}
                         initial="hidden"
                         whileInView="visible"
+                        className="h-100 d-flex flex-column"
                     >
                         <div className="w-100 d-flex">
                             <div className="flex-grow-1 d-flex align-items-center" style={{
@@ -121,8 +119,8 @@ const MyNote: React.FC<Props> = () => {
                                 <MyNoteDatePicker value={moment.unix(parseInt(NoteStore.note.deadline))} onChange={(date) => console.log(date)} inputFormat={date_time_format}/>
                             </div>
                         </div>
-                        <div style={{marginTop: 24}}>
-                            <MyNoteCreateDescriptionButton/>
+                        <div style={{marginTop: 24, position: "relative", flexGrow: 1}}>
+                            <BCEditor/>
                         </div>
                     </motion.div>
                 ) : <MyNotePlug/>

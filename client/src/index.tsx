@@ -7,8 +7,7 @@ import {themeLight} from './customMuiThemes';
 import LocalizationProvider from '@mui/lab/LocalizationProvider';
 import DateAdapter from '@mui/lab/AdapterMoment';
 import "./index.scss"
-import {configure, spy} from "mobx";
-import MyNoteDescriptionModal from "./components/note-description-editor/MyNoteDescriptionModal";
+import {configure, spy} from "mobx"
 
 spy((ev) => {
     if (ev.type === "action") {
@@ -28,7 +27,6 @@ ReactDOM.render(
     <React.StrictMode>
         <LocalizationProvider dateAdapter={DateAdapter}>
             <ThemeProvider theme={themeLight}>
-                <MyNoteDescriptionModal/>
                 <App/>
             </ThemeProvider>
         </LocalizationProvider>
